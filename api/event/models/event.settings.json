@@ -24,6 +24,9 @@
     },
     "photo_credit": {
       "type": "string"
+    },
+    "horario": {
+      "type": "datetime"
     }
   }
 }
