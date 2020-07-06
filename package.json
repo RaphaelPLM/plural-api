@@ -1,5 +1,5 @@
 {
-  "name": "plural-api",
+  "name": "api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,29 +11,26 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "find-config": "^1.0.0",
-    "knex": "<0.21.0",
-    "pg": "^8.0.3",
-    "strapi": "3.0.0-beta.19.3",
-    "strapi-admin": "3.0.0-beta.19.3",
-    "strapi-connector-bookshelf": "3.0.0-beta.19.3",
-    "strapi-plugin-content-manager": "3.0.0-beta.19.3",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.19.3",
-    "strapi-plugin-email": "3.0.0-beta.19.3",
-    "strapi-plugin-upload": "3.0.0-beta.19.3",
-    "strapi-plugin-users-permissions": "3.0.0-beta.19.3",
-    "strapi-provider-upload-aws-s3": "^3.0.5",
-    "strapi-utils": "3.0.0-beta.19.3"
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-utils": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-connector-bookshelf": "3.0.5",
+    "knex": "<0.20.0",
+    "sqlite3": "latest"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "12ab2288-40be-42d1-8ae2-ce0a98429f4d"
+    "uuid": "c205775c-e23b-49ec-9003-18c6b2881925"
   },
   "engines": {
-    "node": ">=10.0.0 <13.0.0",
+    "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
