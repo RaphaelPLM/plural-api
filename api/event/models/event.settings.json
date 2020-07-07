@@ -27,6 +27,10 @@
     },
     "horario": {
       "type": "datetime"
+    },
+    "prioridade": {
+      "type": "integer",
+      "default": 999999
     }
   }
 }
